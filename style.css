@@ -29,3 +29,27 @@
    button, i{
       cursor: pointer;
    }
+
+
+   /* section: 1 */
+   .calculation-container{
+      background-image: url(./images/card-bg.avif);
+      background-position: center;
+      background-size: cover;
+      width: 630px;
+      height: fit-content;
+      border-radius: 10px;
+   }
+
+   .calculation-contents{
+      background-color: rgba(0, 0, 0, 0.514);
+      width: 630px;
+      height: fit-content;
+      border-radius: 10px;
+   }
+
+   .cart-list{
+      background: linear-gradient(180deg, rgba(20, 22, 19, 0.829),rgba(106, 208, 255, 0.692));
+   }
+
+

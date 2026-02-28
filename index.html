@@ -36,8 +36,8 @@
                 <li>Home</li>
                 <li>Blog</li>
                 <span class="flex gap-x-3">
-                    <li><i class="ri-heart-3-line text-xl border border-sky-500 p-2 rounded-full"></i></li><li>
-                    <i class="ri-shopping-cart-line text-xl border border-sky-500 p-2 rounded-full"></i></li>
+                    <li><i class="ri-heart-3-line text-xl border border-sky-500 p-2 rounded-full"></i></li>
+                    <li><i class="ri-shopping-cart-line text-xl border border-sky-500 p-2 rounded-full"></i></li>
                 </span>
             </ul>
         </nav>
@@ -50,7 +50,7 @@
             <div class="w-[500px]">
                 <h1 class="text-[50px] leading-[60px] font-extrabold">Let's travel around the world!</h1>
                 <p class="text-neutral-700 mt-4 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci hic deleniti accusamus, mollitia consequatur ratione optio veniam.</p>
-                <button class="bg-sky-500 text-white font-semibold mt-7 py-2 px-5 rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl">$<span>1200</span></button>
+                <button class="bg-sky-500 text-white font-semibold mt-7 py-2 px-5 rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl text-lg">$<span>1200</span></button>
             </div>
 
             <!--banner img container  -->
@@ -59,27 +59,150 @@
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </header>
+
+
+    <!-- ======================MAIN PART========================= -->
+    <main>
+        <!--!Section:  -->
+        <section class="py-[100px] flex justify-between items-center">
+            <!-- *cards container -->
+            <div class="space-y-12">
+                <!-- card content: 1 -->
+                <div class="flex gap-x-8 items-center bg-slate-200 shadow-xl rounded-xl w-fit pr-8">
+                    <!-- 
+                    img container 
+                    -->
+                    <div>
+                        <img class="w-[230px] rounded-tl-xl rounded-bl-xl" src="./images/sajek.jpg" alt="">
+                    </div>
+
+                    <!-- 
+                    title and cart container 
+                    -->
+                    <div>
+                        <!-- title -->
+                        <h1 class="text-xl font-bold"><i class="ri-map-pin-2-line"></i>Location: Sajek</h1>
+                        <hr class="border border-neutral-300 my-5">
+                        <!-- order button -->
+                        <div class="flex justify-between items-center">
+                            <p class="font-semibold text-base bg-sky-500 text-white py-1 px-3 rounded-tl-3xl rounded-br-3xl rounded-bl-3xl">$300</p>
+                            <button class=""><i class="ri-shopping-cart-line text-xl border-none bg-sky-300 border shadow-2xl p-2 rounded-full "></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card content: 2-->
+                <div class="flex gap-x-8 items-center bg-slate-200 shadow-xl rounded-xl w-fit pr-8 ml-10">
+                    <!-- 
+                    img container 
+                    -->
+                    <div>
+                        <img class="w-[230px] rounded-tl-xl rounded-bl-xl" src="./images/cox-bazar.jpg" alt="">
+                    </div>
+
+                    <!-- 
+                    title and cart container 
+                    -->
+                    <div>
+                        <!-- title -->
+                        <h1 class="text-xl font-bold"><i class="ri-map-pin-2-line"></i>Location: Cox Bazar</h1>
+                        <hr class="border border-neutral-300 my-5">
+                        <!-- order button -->
+                        <div class="flex justify-between items-center">
+                            <p class="font-semibold text-base bg-sky-500 text-white py-1 px-3 rounded-tl-3xl rounded-br-3xl rounded-bl-3xl">$300</p>
+                            <button class=""><i class="ri-shopping-cart-line text-xl border-none bg-sky-300 border shadow-2xl p-2 rounded-full "></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card content: 3 -->
+                <div class="flex gap-x-8 items-center bg-slate-200 shadow-xl rounded-xl w-fit pr-8">
+                    <!-- 
+                    img container 
+                    -->
+                    <div>
+                        <img class="w-[230px] rounded-tl-xl rounded-bl-xl" src="./images/dhaka.webp" alt="">
+                    </div>
+
+                    <!-- 
+                    title and cart container 
+                    -->
+                    <div>
+                        <!-- title -->
+                        <h1 class="text-xl font-bold"><i class="ri-map-pin-2-line"></i>Location: Dhaka</h1>
+                        <hr class="border border-neutral-300 my-5">
+                        <!-- order button -->
+                        <div class="flex justify-between items-center">
+                            <p class="font-semibold text-base bg-sky-500 text-white py-1 px-3 rounded-tl-3xl rounded-br-3xl rounded-bl-3xl">$300</p>
+                            <button class=""><i class="ri-shopping-cart-line text-xl border-none bg-sky-300 border shadow-2xl p-2 rounded-full "></i></button>
+                        </div>
+                    </div>
+                </div>
+
+          
+            </div>
+
+            <!-- *calculation container -->
+            <div class="calculation-container ">
+                <!-- card content: 1 -->
+                <div class="calculation-contents py-20">
+                    <!-- title -->
+                    <h1 class="text-center text-2xl items-center text-slate-100 font-bold pb-5">Cost Calculation</h1>
+
+                    <!-- cart list -->
+                    <div class="flex justify-center gap-x-8">
+                        <!-- cart: 1 -->
+                        <div class="w-fit h-fit cart-list p-5 rounded-xl">
+                            <!-- title -->
+                            <h1 class="text-xl text-slate-200 text-center"><i class="ri-bus-fill"></i> Bus</h1>
+                            <hr class="border border-neutral-300 mb-5 w-[125px]">
+                            <!-- order select button -->
+                            <div class="flex items-center gap-5">
+                                <p class="font-semibold text-base bg-sky-500 text-white py-1 px-3 rounded-tl-3xl rounded-br-3xl rounded-bl-3xl">+$<span>100</span></p>
+                                <button class=""><i class="ri-shopping-cart-line text-xl border-none bg-sky-300 border shadow-2xl p-2 rounded-full "></i></button>
+                            </div>
+                        </div>
+
+                        <!-- cart: 2 -->
+                        <div class="w-fit h-fit cart-list p-5 rounded-xl">
+                            <!-- title -->
+                            <h1 class="text-xl text-slate-200 text-center"><i class="ri-train-line"></i> Train</h1>
+                            <hr class="border border-neutral-300 mb-5 w-[125px]">
+                            <!-- order select button -->
+                            <div class="flex items-center gap-5">
+                                <p class="font-semibold text-base bg-sky-500 text-white py-1 px-3 rounded-tl-3xl rounded-br-3xl rounded-bl-3xl">-$<span>200</span></p>
+                                <button class=""><i class="ri-shopping-cart-line text-xl border-none bg-sky-300 border shadow-2xl p-2 rounded-full "></i></button>
+                            </div>
+                        </div>
+
+                        <!-- cart: 3 -->
+                        <div class="w-fit h-fit cart-list p-5 rounded-xl">
+                            <!-- title -->
+                            <h1 class="text-xl text-slate-200 text-center"><i class="ri-flight-takeoff-line"></i> Plane</h1>
+                            <hr class="border border-neutral-300 mb-5 w-[125px]">
+                            <!-- order select button -->
+                            <div class="flex items-center gap-5">
+                                <p class="font-semibold text-base bg-sky-500 text-white py-1 px-3 rounded-tl-3xl rounded-br-3xl rounded-bl-3xl">+$<span>500</span></p>
+                                <button class=""><i class="ri-shopping-cart-line text-xl border-none bg-sky-300 border shadow-2xl p-2 rounded-full "></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+
+
+
+
     <!-- js file -->
     <script src="./script.js"></script>
 </body>
