@@ -8,34 +8,37 @@
     <!-- css file -->
     <link rel="stylesheet" href="./style.css">
 
-    <!-- daisy ui & tailwind -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- font & icon-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
 </head>
-<body>
-    <!-- =====================HEADER PART========================= -->
-     <header>
+<body class="max-w-[1300px] min-h-screen mx-auto px-10">
+    <!-- ======================HEADER PART========================= -->
+    <header class="pt-3">
         <!-- 
         navbar
          -->
-        <nav>
+        <nav class="flex justify-between">
             <!-- logo & logo tile -->
-            <div>
-                <img src="./images/logo.png" alt="">
-                <h3>Traveller</h3>
+            <div class="flex justify-center items-center">
+                <img class="w-16 h-12 rounded-full" src="./images/logo.png" alt="">
+                <h3 class="font-bold text-2xl">Traveller.</h3>
             </div>
 
             <!-- nav lists -->
-            <ul>
+            <ul class="flex items-center gap-x-10 text-[17px]">
                 <li>Home</li>
                 <li>Blog</li>
-                <li><i class="ri-shopping-cart-line"></i></li>
+                <span class="flex gap-x-3">
+                    <li><i class="ri-heart-3-line text-xl border border-sky-500 p-2 rounded-full"></i></li><li>
+                    <i class="ri-shopping-cart-line text-xl border border-sky-500 p-2 rounded-full"></i></li>
+                </span>
             </ul>
         </nav>
 
@@ -61,20 +64,7 @@
 
 
 
-     </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </header>
     <!-- js file -->
     <script src="./script.js"></script>
 </body>
