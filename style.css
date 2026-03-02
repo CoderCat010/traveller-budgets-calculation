@@ -1,0 +1,32 @@
+/* ==========================
+   RESET STYLES
+   ========================== */
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   
+/* ==========================
+   GLOBAL STYLES
+   ========================== */
+   body{
+    scroll-behavior: smooth;
+    font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
+   }
+
+   a{
+    text-decoration: none;
+    cursor: pointer;
+   }
+
+   li{
+    list-style: none;
+    cursor: pointer;
+   }
+
+   button, i{
+      cursor: pointer;
+   }
